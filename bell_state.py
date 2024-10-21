@@ -22,6 +22,10 @@ plt.show()
 
 simulator = AerSimulator()
 
+# Transpile the circuit for the simulator
+
+circuit.measure_all()
+
 # Re-transpile the circuit with measurements
 compiled_circuit = transpile(circuit, simulator)
 
