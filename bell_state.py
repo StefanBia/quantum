@@ -3,7 +3,6 @@ from qiskit.visualization import plot_histogram
 from qiskit_aer import AerSimulator
 import matplotlib.pyplot as plt
 
-# Create a Quantum Circuit with 2 qubits and 2 classical bits
 circuit = QuantumCircuit(4)
 
 initial_state = [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
